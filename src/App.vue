@@ -6,11 +6,13 @@
    <services />
    <testimonial />
    <contactus />
+   <Footer />
   </div>
 </template>
 <script>
 import Aboutus from './components/aboutus.vue'
 import Contactus from './components/contactus.vue'
+import Footer from './components/footer.vue'
 import Heroarea from './components/heroarea.vue'
 import Navigationbar from './components/navigationbar.vue'
 import Services from './components/services.vue'
@@ -23,9 +25,10 @@ export default {
     Aboutus,
     Services,
     Testimonial,
-    Contactus
+    Contactus,
+    Footer
     
   }
 }
 </script>,
-    Testimonial
+    
